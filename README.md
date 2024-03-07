@@ -1,2 +1,3 @@
 # Projeto-PW2
-Repositório - Projeto de Programação WEB II 
+Autores: Guilherme Gomes da Silva; Rian 
+Repositório - Projeto de Programação WEB II
