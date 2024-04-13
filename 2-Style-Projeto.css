@@ -1,9 +1,14 @@
-body{
-    background-color: rgb(96, 96, 216);
+*{
     font-family: 'Times New Roman', Times, serif;
 }
 
-div{
+body{
+    background-color: rgb(96, 96, 216);
+}
+
+/*----------------------------------------------------------------*/
+
+.pergunta{
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 8px black;
@@ -18,4 +23,9 @@ div{
 
 .botao{
     box-shadow: 2px 2px 8px;
+}
+
+/*-----------------------------------------------------------------*/
+.card-body{
+    text-align: center;
 }
