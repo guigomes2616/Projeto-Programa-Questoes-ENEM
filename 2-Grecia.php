@@ -1,30 +1,36 @@
+<?php 
+    include '1-Header.html';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="2-Style-Projeto.css">
-    <title>Document</title>
+    <title>Questões da Grécia Antiga</title>
 </head>
 
 <body>
+
+<h1>Grécia Antiga</h1>
     <div class="pergunta" id="pergunta1">
-        <h2><label for="question1">1 - Em Star Wars, qual o planeta natal de Luke Skywalker?</label></h2>
+        <p><label for="question1"><strong>1</strong> - A soberania dos cidadãos dotados de plenos direitos era imprescindível para a existência da cidade-estado. Segundo os regimes políticos, a proporção desses cidadãos em relação à população total dos homens livres podia variar muito, sendo bastante pequena nas aristocracias e oligarquias e maior nas democracias.</label></p>
         <br>
-        <input type="radio" name="quest1" id="q1_1"> Alderaan
+        <input type="radio" name="quest1" class="question" id="q1_1"> Controle da terra.
         <br>
-        <input type="radio" name="quest1" id="q1_2"> Naboo
+        <input type="radio" name="quest1" class="question" id="q1_2"> Liberdade de culto.
         <br>
-        <input type="radio" name="quest1" id="q1_3"> Coruscant
+        <input type="radio" name="quest1" class="question" id="q1_3"> Igualdade de gênero.
         <br>
-        <input type="radio" name="quest1" id="q1_4"> Jakku
+        <input type="radio" name="quest1" class="question" id="q1_4"> Exclusão dos militares.
         <br>
-        <input type="radio" name="quest1" id="q1_5"> Tatooine
+        <input type="radio" name="quest1" class="question" id="q1_5"> Exigência da alfabetização.
         <br>
     </div>
         <br>
     <div class="pergunta" id="pergunta2">
-        <h2><label for="question2">2 - ......</label></h2>
+        <h2><label for="question2"><strong>2</strong> - ......</label></h2>
         <br>
         <input type="radio" name="quest2" id="q2_1">......
         <br>
@@ -39,7 +45,7 @@
         </div>
         <br>
     <div class="pergunta" id="pergunta3">
-        <h2><label for="question3">3 - ......</label></h2>
+        <h2><label for="question3"><strong>3</strong> - ......</label></h2>
         <br>
         <input type="radio" name="quest3" id="q3_1">......
         <br>
@@ -54,7 +60,7 @@
     </div>
         <br>
     <div class="pergunta" id="pergunta4">
-        <h2><label for="question4">4 - ......</label></h2>
+        <h2><label for="question4"><strong>4</strong> - ......</label></h2>
         <br>
         <input type="radio" name="quest4" id="q4_1">......
         <br>
@@ -69,7 +75,7 @@
     </div>
         <br>
     <div class="pergunta" id="pergunta5">
-        <h2><label for="question5">5 - ......</label></h2>
+        <h2><label for="question5"><strong>5</strong> - ......</label></h2>
         <br>
         <input type="radio" name="quest5" id="q5_1">......
         <br>
@@ -84,7 +90,7 @@
     </div>
         <br>
     <div class="pergunta" id="pergunta6">
-        <h2><label for="question6">6 - ......</label></h2>
+        <h2><label for="question6"><strong>6</strong> - ......</label></h2>
         <br>
         <input type="radio" name="quest6" id="q6_1">......
         <br>

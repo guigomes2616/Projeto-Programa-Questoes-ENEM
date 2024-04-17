@@ -1,12 +1,13 @@
+/*Todos os Arquivos ----------------------------------------------*/
 *{
     font-family: 'Times New Roman', Times, serif;
 }
 
 body{
-    background-color: rgb(96, 96, 216);
+    background-color: rgb(78, 177, 216);
 }
 
-/*----------------------------------------------------------------*/
+/*Arquivos das Disciplinas-----------------------------------------*/
 
 .pergunta{
     background-color: white;
@@ -17,6 +18,10 @@ body{
     margin-right: 5%;
 }
 
+strong{
+    font-size: 20px;
+}
+
 #pergunta1{
     margin-top: 3%;
 }
@@ -25,7 +30,39 @@ body{
     box-shadow: 2px 2px 8px;
 }
 
-/*-----------------------------------------------------------------*/
+/*GitHub --------------------------------------------------------------*/
 .card-body{
     text-align: center;
+}
+
+/*Página Incial --------------------------------------------------------*/
+#disciplina1, #disciplina2, #disciplina3, #disciplina4, #disciplina5, #disciplina6{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.disciplina{
+    margin: 10px;
+    height: 45px;
+    line-height: 45px;
+    
+}
+
+.disciplina p:hover{
+    transform: scale(1.1);
+}
+
+#infoEnem{
+    text-align: start;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+h1{
+    margin: 10px;
 }
