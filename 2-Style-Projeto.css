@@ -9,7 +9,7 @@ body{
 
 /*Arquivos das Disciplinas-----------------------------------------*/
 
-.pergunta{
+.divpergunt{
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 8px black;
@@ -22,7 +22,7 @@ strong{
     font-size: 20px;
 }
 
-#pergunta1{
+#divpergunt1{
     margin-top: 3%;
 }
 

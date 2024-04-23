@@ -14,9 +14,10 @@
 <body>
 
 <h1>Grécia Antiga</h1>
-    <div class="pergunta" id="pergunta1">
+    <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - A soberania dos cidadãos dotados de plenos direitos era imprescindível para a existência da cidade-estado. Segundo os regimes políticos, a proporção desses cidadãos em relação à população total dos homens livres podia variar muito, sendo bastante pequena nas aristocracias e oligarquias e maior nas democracias.</label></p>
-        <br>
+        <p>Nas cidades-estado da Antiguidade Clássica, a proporção de cidadãos descrita no texto é explicada pela adoção do seguinte critério para a participação política:</p>
+
         <input type="radio" name="quest1" class="question" id="q1_1"> Controle da terra.
         <br>
         <input type="radio" name="quest1" class="question" id="q1_2"> Liberdade de culto.
@@ -29,82 +30,71 @@
         <br>
     </div>
         <br>
-    <div class="pergunta" id="pergunta2">
-        <h2><label for="question2"><strong>2</strong> - ......</label></h2>
+    <div class="divpergunt" id="divpergunt2">
+        <p><label for="question2"><strong>2</strong> - Na Grécia, o conceito de povo abrange tão somente aqueles indivíduos considerados cidadãos. Assim é possível perceber que o conceito de povo era muito restritivo. Mesmo tendo isso em conta, a forma democrática vivenciada e experimentada pelos gregos atenienses nos séculos IV e V a.C. pode ser caracterizada, fundamentalmente, como direta.</label></p>
+        <p>Naquele contexto, a emergência do sistema de governo mencionado no excerto promoveu o(a): </p>
+        
+        <input type="radio" name="quest2" id="q2_1"> Competição para a escolha de representantes
         <br>
-        <input type="radio" name="quest2" id="q2_1">......
+        <input type="radio" name="quest2" id="q2_2"> Campanha pela revitalização das oligarquias
         <br>
-        <input type="radio" name="quest2" id="q2_2">......
+        <input type="radio" name="quest2" id="q2_3"> Estabelecimento de mandatos temporários
         <br>
-        <input type="radio" name="quest2" id="q2_3">......
+        <input type="radio" name="quest2" id="q2_4"> Declínio da sociedade civil organizada
         <br>
-        <input type="radio" name="quest2" id="q2_4">......
-        <br>
-        <input type="radio" name="quest2" id="q2_5">......
+        <input type="radio" name="quest2" id="q2_5"> Participação no exercício do poder
         <br>
         </div>
         <br>
-    <div class="pergunta" id="pergunta3">
-        <h2><label for="question3"><strong>3</strong> - ......</label></h2>
+    <div class="divpergunt" id="divpergunt3">
+        <p><label for="question3"><strong>3</strong> - Quando se trata de competência nas construções e nas artes, os atenienses acreditam que poucos sejam capazes de dar conselhos. Quando, ao contrário, se trata de uma deliberação política, toleram que qualquer um fale, de outro modo não existiria a cidade.</label></p>
+        <p>De acordo com o texto, a atuação política dos cidadãos atenienses na Antiguidade Clássica tinha como característica fundamental o(a): </p>
+        <input type="radio" name="quest3" id="q3_1"> Dedicação altruísta em ações coletivas
         <br>
-        <input type="radio" name="quest3" id="q3_1">......
+        <input type="radio" name="quest3" id="q3_2"> Participação direta em fóruns decisórios
         <br>
-        <input type="radio" name="quest3" id="q3_2">......
+        <input type="radio" name="quest3" id="q3_3"> Ativismo humanista em debates públicos
         <br>
-        <input type="radio" name="quest3" id="q3_3">......
+        <input type="radio" name="quest3" id="q3_4"> Discurso formalista em espaços acadêmicos
         <br>
-        <input type="radio" name="quest3" id="q3_4">......
-        <br>
-        <input type="radio" name="quest3" id="q3_5">......
-        <br>
-    </div>
-        <br>
-    <div class="pergunta" id="pergunta4">
-        <h2><label for="question4"><strong>4</strong> - ......</label></h2>
-        <br>
-        <input type="radio" name="quest4" id="q4_1">......
-        <br>
-        <input type="radio" name="quest4" id="q4_2">......
-        <br>
-        <input type="radio" name="quest4" id="q4_3">......
-        <br>
-        <input type="radio" name="quest4" id="q4_4">......
-        <br>
-        <input type="radio" name="quest4" id="q4_5">......
+        <input type="radio" name="quest3" id="q3_5"> Representação igualitária em instâncias parlamentares.
         <br>
     </div>
         <br>
-    <div class="pergunta" id="pergunta5">
-        <h2><label for="question5"><strong>5</strong> - ......</label></h2>
+    <div class="divpergunt" id="divpergunt4">
+        <p><label for="question4"><strong>4</strong> - Na antiga Grécia, o teatro tratou de questões como destino, castigo e justiça. Muitos gregos sabiam de cor inúmeros versos das peças dos seus grandes autores. Na Inglaterra dos séculos XVI e XVII, Shakespeare produziu peças nas quais temas como o amor, o poder, o bem e o mal foram tratados. Nessas peças, os grandes personagens falavam em verso e os demais em prosa. No Brasil colonial, os índios aprenderam com os jesuítas a representar peças de caráter religioso.</label></p>
+        <p>Esses fatos são exemplos de que, em diferentes tempos e situações, o teatro é uma forma: </p>
+
+        <input type="radio" name="quest4" id="q4_1"> De manipulação do povo pelo poder, que controla o teatro
         <br>
-        <input type="radio" name="quest5" id="q5_1">......
+        <input type="radio" name="quest4" id="q4_2"> De diversão e de expressão dos valores e problemas da sociedade
         <br>
-        <input type="radio" name="quest5" id="q5_2">......
+        <input type="radio" name="quest4" id="q4_3"> De entretenimento popular, que se esgota na sua função de distrair
+        <br>
+        <input type="radio" name="quest4" id="q4_4"> De manipulação do povo pelos intelectuais que compõem as peças
+        <br>
+        <input type="radio" name="quest4" id="q4_5"> De entretenimento, que foi superada e hoje é substituída pela televisão
+        <br>
+    </div>
+        <br>
+    <div class="divpergunt" id="divpergunt5">
+        <p><label for="question5"><strong>5</strong> - "Mirem-se no exemplo, Daquelas mulheres de Atenas, Vivem pros seus maridos"</label></p>
+        <p>Os versos da composição remetem à condição das mulheres na Grécia antiga, caracterizada, naquela época, em razão de:</p>
+        
+        <input type="radio" name="quest5" id="q5_1"> Sua função pedagógica, exercida junto às crianças atenienses
+        <br>
+        <input type="radio" name="quest5" id="q5_2"> Sua importância na consolidação da democracia, pelo casamento
          <br>
-        <input type="radio" name="quest5" id="q5_3">......
+        <input type="radio" name="quest5" id="q5_3"> Seu rebaixamento de status social frente aos homens
         <br>
-        <input type="radio" name="quest5" id="q5_4">......
+        <input type="radio" name="quest5" id="q5_4"> Seu afastamento das funções domésticas em períodos de guerra
         <br>
-        <input type="radio" name="quest5" id="q5_5">......
-        <br>
-    </div>
-        <br>
-    <div class="pergunta" id="pergunta6">
-        <h2><label for="question6"><strong>6</strong> - ......</label></h2>
-        <br>
-        <input type="radio" name="quest6" id="q6_1">......
-        <br>
-        <input type="radio" name="quest6" id="q6_2">......
-        <br>
-        <input type="radio" name="quest6" id="q6_3">......
-        <br>
-        <input type="radio" name="quest6" id="q6_4">......
-        <br>
-        <input type="radio" name="quest6" id="q6_5">......
+        <input type="radio" name="quest5" id="q5_5"> Sua igualdade política em relação aos homens
         <br>
     </div>
-    <br>
     
+    <br>
+
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
 

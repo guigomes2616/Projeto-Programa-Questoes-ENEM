@@ -21,12 +21,12 @@
     </div>
         
         <div class="disciplina" id="disciplina2">
-            <p><a href="#">Roma Antiga</a></p>
+            <p><a href="3-Roma.php">Roma Antiga</a></p>
             <br>
         </div>
 
             <div class="disciplina" id="disciplina3">
-                <p><a href="#">Primeira Guerra Mundial</a></p>
+                <p><a href="4-Primeira-Guerra.php">Primeira Guerra Mundial</a></p>
                 <br>
             </div>
 
@@ -41,7 +41,7 @@
                     </div>
 
                         <div class="disciplina" id="disciplina6">
-                            <p><a href="#">Ditadura Militar</a></p>
+                            <p><a href="#">Ditadura Militar no Brasil</a></p>
                             <br>
                         </div>
 
