@@ -1,3 +1,7 @@
+<?php 
+  include '1-Header.html';
+?>
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -12,10 +16,6 @@
   </head>
 
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-
-    <?php 
-        include '1-Header.html';
-    ?>
 
     <div class="card">
       <div class="card-header">

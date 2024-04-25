@@ -14,6 +14,9 @@
 <body>
 
 <h1>Roma Antiga</h1>
+
+<form action="3-Resultado-Roma.php" method="post">
+
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação; o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho.</label></p>
         <p>O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de:</p>
@@ -93,9 +96,8 @@
         <input type="radio" class="question" name="quest5" id="q5_5"> Libertação do domínio etrusco
         <br>
     </div>
-    
+</form>
     <br>
-    
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
 

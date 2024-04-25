@@ -15,6 +15,8 @@
 
 <h1>Primeira Guerra Mundial</h1>
 
+<form action="4-Resultado-Primeira-Guerra.php" method="post"></form>
+
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana.</label></p>
         <p>Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão: </p>
@@ -94,9 +96,8 @@
         <input type="radio" name="quest5" id="q5_5"> ...
         <br>
     </div>
-    
+</form> 
     <br>
-
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
 

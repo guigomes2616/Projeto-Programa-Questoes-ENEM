@@ -14,6 +14,9 @@
 <body>
 
 <h1>Grécia Antiga</h1>
+
+<form action="1-Resultado-Grecia.php" method="post">
+
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - A soberania dos cidadãos dotados de plenos direitos era imprescindível para a existência da cidade-estado. Segundo os regimes políticos, a proporção desses cidadãos em relação à população total dos homens livres podia variar muito, sendo bastante pequena nas aristocracias e oligarquias e maior nas democracias.</label></p>
         <p>Nas cidades-estado da Antiguidade Clássica, a proporção de cidadãos descrita no texto é explicada pela adoção do seguinte critério para a participação política:</p>
@@ -92,9 +95,8 @@
         <input type="radio" name="quest5" id="q5_5"> Sua igualdade política em relação aos homens
         <br>
     </div>
-    
+</form>  
     <br>
-
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
 

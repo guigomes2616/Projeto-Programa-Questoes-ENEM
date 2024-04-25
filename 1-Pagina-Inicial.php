@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -31,17 +31,17 @@
             </div>
 
                 <div class="disciplina" id="disciplina4">
-                    <p><a href="#">Segunda Guerra Mundial</a></p>
+                    <p><a href="5-Segunda-Guerra.php">Segunda Guerra Mundial</a></p>
                     <br>
                 </div>
 
                     <div class="disciplina" id="disciplina5">
-                        <p><a href="#">Guerra Fria</a></p>
+                        <p><a href="6-Guerra-Fria.php">Guerra Fria</a></p>
                         <br>
                     </div>
 
                         <div class="disciplina" id="disciplina6">
-                            <p><a href="#">Ditadura Militar no Brasil</a></p>
+                            <p><a href="7-Ditadura-Militar.php">Ditadura Militar no Brasil</a></p>
                             <br>
                         </div>
 
