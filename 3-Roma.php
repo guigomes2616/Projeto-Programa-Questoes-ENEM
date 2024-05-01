@@ -1,5 +1,5 @@
 <?php 
-    include '1-Header.html';
+    include '1-Header.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,9 @@
 <form action="3-Resultado-Roma.php" method="post">
 
     <div class="divpergunt" id="divpergunt1">
-        <p><label for="question1"><strong>1</strong> - Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação; o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho.</label></p>
-        <p>O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de:</p>
+        <p><label for="question1"><strong>1</strong> - Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação; o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho.
+        <br>
+        O acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de:</label></p>
 
         <input type="radio" name="quest1" class="question" id="q1_1"> Demarcação de terras públicas
         <br>
@@ -34,8 +35,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt2">
-        <p><label for="question2"><strong>2</strong> - Durante a realeza, e nos primeiros anos republicanos, as leis eram transmitidas oralmente de uma geração para outra. A ausência de uma legislação escrita permitia aos patrícios manipular a justiça conforme seus interesses. Em 451 aC., porém, os plebeus conseguiram eleger uma comissão de dez pessoas — os decênviros — para escrever as leis. Dois deles viajaram a Atenas, na Grécia, para estudar a legislação de Sólon.</label>
-        <p>A superação da tradição jurídica oral no mundo antigo, descrita no texto, esteve relacionada à:</p>
+        <p><label for="question2"><strong>2</strong> - Durante a realeza, e nos primeiros anos republicanos, as leis eram transmitidas oralmente de uma geração para outra. A ausência de uma legislação escrita permitia aos patrícios manipular a justiça conforme seus interesses. Em 451 aC., porém, os plebeus conseguiram eleger uma comissão de dez pessoas — os decênviros — para escrever as leis. Dois deles viajaram a Atenas, na Grécia, para estudar a legislação de Sólon.
+        <br>
+        A superação da tradição jurídica oral no mundo antigo, descrita no texto, esteve relacionada à:</label></p>
 
         <input type="radio" class="question" name="quest2" id="q2_1"> O adoção do sufrágio universal masculino 
         <br>
@@ -50,8 +52,9 @@
         </div>
         <br>
     <div class="divpergunt" id="divpergunt3">
-        <p><label for="question3"><strong>3</strong> - A Lei das Doze Tábuas, de meados do Século V a.C., fixou por escrito um velho direito costumeiro. No relativo às dívidas não pagas, o código permitia, em última análise, matar o devedor; ou vendê-lo como escravo “do outro lado do Tibre” — isto é, fora do território de Roma.</label></p>
-        <p>A referida lei foi um marco na luta por direitos na Roma Antiga, pois possibilitou que os plebeus: </p>
+        <p><label for="question3"><strong>3</strong> - A Lei das Doze Tábuas, de meados do Século V a.C., fixou por escrito um velho direito costumeiro. No relativo às dívidas não pagas, o código permitia, em última análise, matar o devedor; ou vendê-lo como escravo “do outro lado do Tibre” — isto é, fora do território de Roma.
+        <br>
+        A referida lei foi um marco na luta por direitos na Roma Antiga, pois possibilitou que os plebeus:</label></p>
 
         <input type="radio" class="question" name="quest3" id="q3_1"> Modificassem a estrutura agrária assentada no latifúndio.
         <br>
@@ -66,8 +69,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt4">
-        <p><label for="question4"><strong>4</strong> - Os escravos tornam-se propriedade nossa seja em virtude da lei civil, seja da lei comum dos povos; em virtude da lei civil, se qualquer pessoa de mais de vinte anos permitir a venda de si própria com a finalidade de lucrar conservando uma parte do preço da compra; e em virtude da lei comum dos povos, são nossos escravos aqueles que foram capturados na guerra e aqueles que são filhos de nossas escravas.</label></p>
-        <p>No direito e na sociedade romana desse período, os escravos compunham uma: </p>
+        <p><label for="question4"><strong>4</strong> - Os escravos tornam-se propriedade nossa seja em virtude da lei civil, seja da lei comum dos povos; em virtude da lei civil, se qualquer pessoa de mais de vinte anos permitir a venda de si própria com a finalidade de lucrar conservando uma parte do preço da compra; e em virtude da lei comum dos povos, são nossos escravos aqueles que foram capturados na guerra e aqueles que são filhos de nossas escravas.
+        <br>
+        No direito e na sociedade romana desse período, os escravos compunham uma: </label></p>
         
         <input type="radio" class="question" name="quest4" id="q4_1"> Mão de obra especializada protegida pela lei
         <br>
@@ -82,8 +86,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt5">
-        <p><label for="question5"><strong>5</strong> - Pois quem seria tão inútil ou indolente a ponto de não desejar saber como e sob que espécie de constituição os romanos conseguiram em menos de cinquenta e três anos submeter quase todo o mundo habitado ao seu governo exclusivo — fato nunca antes ocorrido? Ou, em outras palavras, quem seria tão apaixonadamente devotado a outros espetáculos ou estudos a ponto de considerar qualquer outro objetivo mais importante que a aquisição desse conhecimento? </label></p>
-        <p>A experiência a que se refere o historiador Políbio, nesse texto escrito no século lla.C., é a: </p>
+        <p><label for="question5"><strong>5</strong> - Pois quem seria tão inútil ou indolente a ponto de não desejar saber como e sob que espécie de constituição os romanos conseguiram em menos de cinquenta e três anos submeter quase todo o mundo habitado ao seu governo exclusivo — fato nunca antes ocorrido? Ou, em outras palavras, quem seria tão apaixonadamente devotado a outros espetáculos ou estudos a ponto de considerar qualquer outro objetivo mais importante que a aquisição desse conhecimento?
+        <br>
+        A experiência a que se refere o historiador Políbio, nesse texto escrito no século lla.C., é a:  </label></p>
         
         <input type="radio" class="question" name="quest5" id="q5_1"> Ampliação do contingente de camponeses livres
         <br>
@@ -101,5 +106,9 @@
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
 
+    <?php 
+        include '1-Rodape.php';
+    ?>
+    
 </body>
 </html> 

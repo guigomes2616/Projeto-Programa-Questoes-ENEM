@@ -1,5 +1,5 @@
 <?php 
-    include '1-Header.html';
+    include '1-Header.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,9 @@
 <form action="5-Resultado-Ditadura.php" method="post">
 
     <div class="divpergunt" id="divpergunt1">
-        <p><label for="question1"><strong>1</strong> - O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica. </p>
-        <p>Os sindicatos rurais foram tratados da forma descrita no texto porque o governo pretendia utiliza-los para: </p>
+        <p><label for="question1"><strong>1</strong> - O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica. 
+        <br>
+        Os sindicatos rurais foram tratados da forma descrita no texto porque o governo pretendia utiliza-los para: </label></p>
         
         <input type="radio" name="quest1" class="question" id="q1_1"> Controlar as tensões políticas
         <br>
@@ -34,8 +35,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt2">
-        <p><label for="question2"><strong>2</strong> - "A gente não sabemos escolher presidente A gente não sabemos tomar conta da gente A gente não sabemos nem escovar os dentes Tem gringo pensando que nóis é indigente Inútil A gente somos inútil"</p>
-        <p>O fragmento integra a letra de uma canção gravada em momento de intensa mobilização política. A canção foi censurada por estar associada: </p>
+        <p><label for="question2"><strong>2</strong> - "A gente não sabemos escolher presidente A gente não sabemos tomar conta da gente A gente não sabemos nem escovar os dentes Tem gringo pensando que nóis é indigente Inútil A gente somos inútil"
+        <br>
+        O fragmento integra a letra de uma canção gravada em momento de intensa mobilização política. A canção foi censurada por estar associada: </label></p>
         
         <input type="radio" class="question" name="quest2" id="q2_1"> Ao rock nacional, que sofreu limitações desde o início da ditadura militar
         <br>
@@ -50,8 +52,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt3">
-        <p><label for="question3"><strong>3</strong> - Art. 10 – Fica suspensa a garantia de habeas corpus, nos casos de crimes políticos, contra a segurança nacional, a ordem econômica e social e a economia popular. Art. 11 – Excluem-se de qualquer apreciação judicial todos os atos praticados de acordo com este Ato Institucional e seus Atos Complementares, bem como os respectivos efeitos.</label></p>
-        <p>O Ato Institucional n° 5 é considerado por muitos autores um "golpe dentro do golpe". Nos artigos do AI-5 selecionados, o governo militar procurou limitar a atuação do Poder Judiciário, porque isso significava:  </p>
+        <p><label for="question3"><strong>3</strong> - Art. 10 – Fica suspensa a garantia de habeas corpus, nos casos de crimes políticos, contra a segurança nacional, a ordem econômica e social e a economia popular. Art. 11 – Excluem-se de qualquer apreciação judicial todos os atos praticados de acordo com este Ato Institucional e seus Atos Complementares, bem como os respectivos efeitos.
+        <br>
+        O Ato Institucional n° 5 é considerado por muitos autores um "golpe dentro do golpe". Nos artigos do AI-5 selecionados, o governo militar procurou limitar a atuação do Poder Judiciário, porque isso significava:</label></p>
         
         <input type="radio" class="question" name="quest3" id="q3_1"> A substituição da Constituição de 1967
         <br>
@@ -66,9 +69,10 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt4">
-        <p><label for="question4"><strong>4</strong> - "É para abrir mesmo e quem quiser que eu não abra eu prendo e arrebento."</label></p>
-        <p>A frase do último presidente do regime militar indicava a ambiguidade da transição política no país. Neste contexto, houve resistências internas ao processo de distensão planejado pela alta cúpula militar, que se manifestaram com: </p>
-        
+        <p><label for="question4"><strong>4</strong> - "É para abrir mesmo e quem quiser que eu não abra eu prendo e arrebento."
+        <br>
+        A frase do último presidente do regime militar indicava a ambiguidade da transição política no país. Neste contexto, houve resistências internas ao processo de distensão planejado pela alta cúpula militar, que se manifestaram com: </label></p>
+
         <input type="radio" class="question" name="quest4" id="q4_1"> As campanhas no rádio, TV e jornais em favor da lei de anistia.
         <br>
         <input type="radio" class="question" name="quest4" id="q4_2"> As posições de prefeitos e governadores em apoio à instalação de eleições diretas
@@ -82,8 +86,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt5">
-        <p><label for="question5"><strong>5</strong> - De um ponto de vista político, achávamos que a ditadura militar era a antessala do socialismo e a última forma de governo possível às classes dominantes no Brasil. Diante de nossos olhos apocalípticos, ditadura e sistema capitalista cairiam juntos num único e harmonioso movimento. A luta especificamente política estava esgotada. </p>
-        <p>Compartilhando da avaliação presente no texto, vários grupos de oposição ao Regime Militar, nos anos 1960 e 1970, lançaram-se na luta política seguindo a estratégia de: </p>
+        <p><label for="question5"><strong>5</strong> - De um ponto de vista político, achávamos que a ditadura militar era a antessala do socialismo e a última forma de governo possível às classes dominantes no Brasil. Diante de nossos olhos apocalípticos, ditadura e sistema capitalista cairiam juntos num único e harmonioso movimento. A luta especificamente política estava esgotada. 
+        <br>
+        Compartilhando da avaliação presente no texto, vários grupos de oposição ao Regime Militar, nos anos 1960 e 1970, lançaram-se na luta política seguindo a estratégia de:  </label></p>
         
         <input type="radio" class="question" name="quest5" id="q5_1"> Aliança com os sindicatos e incitação de greves
         <br>
@@ -100,6 +105,10 @@
     <br>
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
+
+    <?php 
+        include '1-Rodape.php';
+    ?>
 
 </body>
 </html> 

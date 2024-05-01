@@ -66,3 +66,89 @@ h2{
 h1{
     margin: 10px;
 }
+
+/* Rodape -------------------------------------------------------------------------------------------------------------*/
+#bodyRodape{
+    margin: 0%;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    margin-top: 8%;
+}
+
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+    justify-content:space-around;
+}
+
+.divTurma{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 2%;
+}
+
+.divContatos{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 2%;
+}
+
+.divDireitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+footer span{
+    font-size: 20px;
+    color: white;
+}
+
+/* Login -------------------------------------------------------------------------------------------------*/
+
+#tituloLogin{
+    text-align: center;
+    margin: 5%;
+}
+
+.bodyLogin{
+    background-color: rgb(198, 150, 243);
+}
+
+.container{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    padding: 3%;
+}
+
+#exampleInputEmail1 {
+    border: 2px solid #000000;
+}
+
+#exampleInputEmail1:focus {
+    border-color: #007bff; /* altera a cor da borda quando o input está em foco */
+    box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
+}
+
+#senha{
+    border: 2px solid #000000;
+}
+
+#senha:focus{
+    border-color: #007bff; /* altera a cor da borda quando o input está em foco */
+    box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
+}
+
+#botaoLogin{
+    width: 35%;
+}

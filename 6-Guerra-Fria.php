@@ -1,5 +1,5 @@
 <?php 
-    include '1-Header.html';
+    include '1-Header.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,9 @@
 <form action="5-Resultado-Guerra-Fria.php" method="post">
 
     <div class="divpergunt" id="divpergunt1">
-        <p><label for="question1"><strong>1</strong> - Os 45 anos que vão do lançamento das bombas atômicas até o fim da União Soviética, não foram um período homogêneo único na história do mundo. (…) dividem-se em duas metades, tendo como divisor de águas o início da década de 70. Apesar disso, a história deste período foi reunida sob um padrão único pela situação internacional peculiar que o dominou até a queda da URSS. </p>
-        <p>O período citado no texto e conhecido por “Guerra Fria” pode ser definido como aquele momento histórico em que houve: </p>
+        <p><label for="question1"><strong>1</strong> - Os 45 anos que vão do lançamento das bombas atômicas até o fim da União Soviética, não foram um período homogêneo único na história do mundo. (…) dividem-se em duas metades, tendo como divisor de águas o início da década de 70. Apesar disso, a história deste período foi reunida sob um padrão único pela situação internacional peculiar que o dominou até a queda da URSS. 
+        <br>
+        O período citado no texto e conhecido por “Guerra Fria” pode ser definido como aquele momento histórico em que houve: </label></p>
         
         <input type="radio" name="quest1" class="question" id="q1_1"> Corrida armamentista entre as potências imperialistas europeias ocasionando a Primeira Guerra Mundial
         <br>
@@ -34,8 +35,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt2">
-        <p><label for="question2"><strong>2</strong> - Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista.</p>
-        <p>Essa divisão europeia ficou conhecida como: </p>
+        <p><label for="question2"><strong>2</strong> - Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista.
+        <br>
+        Essa divisão europeia ficou conhecida como: </label></p>
         
         <input type="radio" class="question" name="quest2" id="q2_1"> Cortina de Ferro
         <br>
@@ -50,8 +52,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt3">
-        <p><label for="question3"><strong>3</strong> - Desde a sua criação, em 1949, a Organização do Tratado do Atlântico Norte (OTAN) tem revisto regularmente as suas tarefas e objetivos, tendo em vista a evolução do ambiente estratégico mundial. Nestes 62 anos de história, tanto a Aliança quanto o resto do mundo sofreram mudanças que os fundadores da OTAN não poderiam ter previsto.</label></p>
-        <p>Diante das transformações ocorridas no cenário geopolítico mundial, a legitimidade dessa organização enfraqueceu-se, pois: </p>
+        <p><label for="question3"><strong>3</strong> - Desde a sua criação, em 1949, a Organização do Tratado do Atlântico Norte (OTAN) tem revisto regularmente as suas tarefas e objetivos, tendo em vista a evolução do ambiente estratégico mundial. Nestes 62 anos de história, tanto a Aliança quanto o resto do mundo sofreram mudanças que os fundadores da OTAN não poderiam ter previsto.
+        <br>
+        Diante das transformações ocorridas no cenário geopolítico mundial, a legitimidade dessa organização enfraqueceu-se, pois:</label></p>
         
         <input type="radio" class="question" name="quest3" id="q3_1"> Passou a se dedicar à luta contra as organizações terroristas internacionais
         <br>
@@ -81,8 +84,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt5">
-        <p><label for="question5"><strong>5</strong> - A Guerra Fria foi, acima de tudo, um produto da heterogeneidade no sistema internacional — para repetir, da heterogeneidade da organização interna e da prática internacional — e somente poderia ser encerrada pela obtenção de uma nova homogeneidade. O resultado disto foi que, enquanto os dois sistemas distintos existiram, o conflito da Guerra Fria estava destinado a continuar: a Guerra Fria não poderia terminar com o compromisso ou a convergência, mas somente com a prevalência de um destes sistemas sobre o outro. </p>
-        <p>A caracterização da Guerra Fria apresentada pelo texto implica interpretá-la como um(a): </p>
+        <p><label for="question5"><strong>5</strong> - A Guerra Fria foi, acima de tudo, um produto da heterogeneidade no sistema internacional — para repetir, da heterogeneidade da organização interna e da prática internacional — e somente poderia ser encerrada pela obtenção de uma nova homogeneidade. O resultado disto foi que, enquanto os dois sistemas distintos existiram, o conflito da Guerra Fria estava destinado a continuar: a Guerra Fria não poderia terminar com o compromisso ou a convergência, mas somente com a prevalência de um destes sistemas sobre o outro. 
+        <br>
+        A caracterização da Guerra Fria apresentada pelo texto implica interpretá-la como um(a): </label></p>
         
         <input type="radio" class="question" name="quest5" id="q5_1"> Esforço de homogeneização do sistema internacional negociado entre Estados Unidos e União Soviética
         <br>
@@ -100,6 +104,10 @@
     <br>
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
+
+    <?php 
+        include '1-Rodape.php';
+    ?>
 
 </body>
 </html> 

@@ -1,5 +1,5 @@
 <?php 
-    include '1-Header.html';
+    include '1-Header.php';
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +18,9 @@
 <form action="4-Resultado-Primeira-Guerra.php" method="post"></form>
 
     <div class="divpergunt" id="divpergunt1">
-        <p><label for="question1"><strong>1</strong> - A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana.</label></p>
-        <p>Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão: </p>
+        <p><label for="question1"><strong>1</strong> - A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana.
+        <br>
+        Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão: </label></p>
 
         <input type="radio" name="quest1" class="question" id="q1_1"> A crise do colonialismo, a ascensão do nacionalismo e do totalitarismo
         <br>
@@ -34,8 +35,9 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt2">
-        <p><label for="question2"><strong>2</strong> - Segundo o historiador Eric J. Hobsbawn, a discussão sobre a gênese da Primeira Guerra Mundial tem sido ininterrupta desde agosto de 1914. A questão permaneceu viva porque o problema das origens das guerras mundiais infelizmente tem se recusado a desaparecer desde 1914. De fato, em nenhum outro ponto a vinculação entre as preocupações passadas e presentes é mais evidente que na históriada Era dos Impérios.</label></p>
-        <p>Assinale a alternativa que apresenta as causas da I Guerra Mundial: </p>
+        <p><label for="question2"><strong>2</strong> - Segundo o historiador Eric J. Hobsbawn, a discussão sobre a gênese da Primeira Guerra Mundial tem sido ininterrupta desde agosto de 1914. A questão permaneceu viva porque o problema das origens das guerras mundiais infelizmente tem se recusado a desaparecer desde 1914. De fato, em nenhum outro ponto a vinculação entre as preocupações passadas e presentes é mais evidente que na históriada Era dos Impérios.
+        <br>
+        Assinale a alternativa que apresenta as causas da I Guerra Mundial: </label></p>
         
         <input type="radio" name="quest2" id="q2_1"> O imperialismo, o rompimento do equilíbrio europeu, o nacionalismo, a política das alianças, as questões balcânicas, o incidente de Sarajevo
         <br>
@@ -50,8 +52,9 @@
         </div>
         <br>
     <div class="divpergunt" id="divpergunt3">
-        <p><label for="question3"><strong>3</strong> - A década que se segue ao fim da guerra constitui praticamente uma continuação desta com a acomodação difícil de seus resultados. A ruptura do sistema internacional com a Revolução Soviética, a ascensão dos Estados Unidos, o recuo da Europa e o início da contestação anticolonial marcam uma década que para muitos foi de pessimismo e para alguns de ilusão, que bruscamente se encerra com a quebra da bolsa de Nova Iorque. Com a crise de 1929 terá início a preparação de uma nova guerra mundial.</label></p>
-        <p>Os eventos mencionados no texto contribuíram fortemente para a ascensão de regimes propensos a um novo conflito armado, pois: </p>
+        <p><label for="question3"><strong>3</strong> - A década que se segue ao fim da guerra constitui praticamente uma continuação desta com a acomodação difícil de seus resultados. A ruptura do sistema internacional com a Revolução Soviética, a ascensão dos Estados Unidos, o recuo da Europa e o início da contestação anticolonial marcam uma década que para muitos foi de pessimismo e para alguns de ilusão, que bruscamente se encerra com a quebra da bolsa de Nova Iorque. Com a crise de 1929 terá início a preparação de uma nova guerra mundial.
+        <br>
+        Os eventos mencionados no texto contribuíram fortemente para a ascensão de regimes propensos a um novo conflito armado, pois:</label></p>
 
         <input type="radio" name="quest3" id="q3_1"> Perturbaram a dinâmica de equilíbrio demográfico
         <br>
@@ -66,40 +69,42 @@
     </div>
         <br>
     <div class="divpergunt" id="divpergunt4">
-        <p><label for="question4"><strong>4</strong> - ... </label></p>
-        <p>... </p>
+        <p><label for="question4"><strong>4</strong> - Em relação às causas da Primeira Guerra Mundial é correto afirmar que: </label></p>
 
-        <input type="radio" name="quest4" id="q4_1"> ...
+        <input type="radio" name="quest4" id="q4_1"> A incapacidade dos Estados liberais em solucionar a crise econômica do século XIX colocou em xeque toda a estrutura do sistema capitalista. A instabilidade política e social das nações europeias impulsionou as disputas colonialistas e o conflito entre as potências
         <br>
-        <input type="radio" name="quest4" id="q4_2"> ...
+        <input type="radio" name="quest4" id="q4_2"> A desigualdade de desenvolvimento das nações capitalistas europeias acentuou a rivalidade imperialista. A disputa colonial marcada por um nacionalismo agressivo e pela corrida armamentista expandiu os pontos de atrito entre as potências
         <br>
-        <input type="radio" name="quest4" id="q4_3"> ...
+        <input type="radio" name="quest4" id="q4_3"> O sucesso da política de apaziguamento e do sistema de aliança equilibrou o sistema de forças entre as nações europeias, acirrando as lutas de conquista das colônias da África e da Ásia
         <br>
-        <input type="radio" name="quest4" id="q4_4"> ...
+        <input type="radio" name="quest4" id="q4_4"> O expansionismo na Áustria, a invasão da Polônia pelas tropas alemãs assustaram a Inglaterra e a França, que reagiram contra a agressão declarando guerra ao inimigo
         <br>
-        <input type="radio" name="quest4" id="q4_5"> ...
+        <input type="radio" name="quest4" id="q4_5"> O desequilíbrio entre a produção e consumo incentivou a conquista de novos mercados produtores de matérias-primas e consumidores de bens de produção reativando as rivalidades entre os países europeus e os da América do Norte
         <br>
     </div>
         <br>
     <div class="divpergunt" id="divpergunt5">
-        <p><label for="question5"><strong>5</strong> - ... </label></p>
-        <p>...</p>
+        <p><label for="question5"><strong>5</strong> - Que nação foi obrigada a sair da Primeira Guerra Mundial devido a conflitos internos? </label></p>
         
-        <input type="radio" name="quest5" id="q5_1"> ...
+        <input type="radio" name="quest5" id="q5_1"> Inglaterra
         <br>
-        <input type="radio" name="quest5" id="q5_2"> ...
+        <input type="radio" name="quest5" id="q5_2"> Império Alemão
          <br>
-        <input type="radio" name="quest5" id="q5_3"> ...
+        <input type="radio" name="quest5" id="q5_3"> Império Russo
         <br>
-        <input type="radio" name="quest5" id="q5_4"> ...
+        <input type="radio" name="quest5" id="q5_4"> Coreia do Norte
         <br>
-        <input type="radio" name="quest5" id="q5_5"> ...
+        <input type="radio" name="quest5" id="q5_5"> Estados Unidos
         <br>
     </div>
 </form> 
     <br>
     <input type="submit" value="Enviar" class="botao" id="enviar">
     <input type="reset" value="Limpar" class="botao" id="limpar">
+
+    <?php 
+        include '1-Rodape.php';
+    ?>
 
 </body>
 </html> 

@@ -1,5 +1,5 @@
 <?php 
-    include '1-Header.html';
+    include '1-Header.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
     <title>Página Inicial</title>
 </head>
 
-<body>
+<body class="body">
     <h2>Disciplinas</h2>
 
     <div class="disciplina" id="disciplina1">
@@ -54,6 +54,10 @@
 
         <p>O ENEM é reconhecido pela sua amplitude, já que, além de avaliar o conhecimento adquirido durante o ensino médio, também busca medir habilidades como interpretação de texto, raciocínio lógico e capacidade de argumentação. Seu formato de aplicação é geralmente em dois dias consecutivos, sendo cada dia composto por uma parte das áreas de conhecimento e a redação.</p>
     </div>
+
+    <?php 
+        include '1-Rodape.php';
+    ?>
 
 </body>
 </html>

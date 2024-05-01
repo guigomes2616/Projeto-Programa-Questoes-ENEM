@@ -1,5 +1,5 @@
 <?php 
-  include '1-Header.html';
+  include '1-Header.php';
 ?>
 
 <!doctype html>
@@ -27,5 +27,10 @@
         <a href="https://github.com/guigomes2616/Projeto-PW2" class="btn btn-primary">Ir para o repositório</a>
       </div>
     </div>
+    
+    <?php 
+        include '1-Rodape.php';
+    ?>
+
   </body>
 </html>
