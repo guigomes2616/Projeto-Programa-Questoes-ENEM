@@ -13,6 +13,7 @@
 </head>
 
 <body class="body">
+    
     <h2>Disciplinas</h2>
 
     <div class="disciplina" id="disciplina1">

@@ -9,6 +9,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
+  <style>
+#botaoCadastro, #botaoLogin{
+    width: 35%;
+    color: white;
+}
+
+#botaoCadastro a{
+    text-decoration: none;
+    color: white;
+}
+
+.divduvida{
+    text-align: center;
+}
+
+  </style>
+
 <body class="bodyLogin">
 
     <h1 id="tituloLogin">Seja bem vindo(a)</h1>
@@ -23,18 +40,30 @@
                         <form action="1-Pagina-Inicial.php" method="post">
 
                             <div class="mb-3">
-                                <label for="usuario" class="form-label">Usuário</label>
-                                <input type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="">
+                                <label for="nickUsuario" class="form-label">Usuário</label>
+                                <input type="text" name="nickUsuario" class="form-control" id="nickUsuario" placeholder="Digite o seu nome de usuário" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="usuario" class="form-label">Email</label>
+                                <input type="text" name="emailLogin" class="form-control" id="emailLogin" aria-describedby="" placeholder="Digite o seu email" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="senha" class="form-label">Senha</label>
-                                <input type="password" name="senha" class="form-control" id="senha">
+                                <input type="password" name="senhaLogin" class="form-control" id="senha" placeholder="Digite a sua senha" required>
+                            </div>
+
+                            <div class="divduvida">
+                                <p>Não é cadastrado? Aperte em Cadastrar</p>
                             </div>
 
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary mt-3" id="botaoLogin">Entrar</button>
+                            <button class="btn btn-primary mt-3" id="botaoCadastro"><a href="8-Cadastro.php">Cadastrar</a></button>
+
+                            <button name="submit" type="submit" class="btn btn-primary mt-3" id="botaoLogin">Entrar</button>
                             </div>
+
                         </form>
                     </div>
                 </div>

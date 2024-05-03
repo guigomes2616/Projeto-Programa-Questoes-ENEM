@@ -131,11 +131,11 @@ footer span{
     padding: 3%;
 }
 
-#exampleInputEmail1 {
+.form-control {
     border: 2px solid #000000;
 }
 
-#exampleInputEmail1:focus {
+.form-control:focus {
     border-color: #007bff; /* altera a cor da borda quando o input está em foco */
     box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
 }
@@ -147,8 +147,4 @@ footer span{
 #senha:focus{
     border-color: #007bff; /* altera a cor da borda quando o input está em foco */
     box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
-}
-
-#botaoLogin{
-    width: 35%;
 }
