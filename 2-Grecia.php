@@ -15,7 +15,7 @@
 
 <h1>Grécia Antiga</h1>
 
-<form action="1-Resultado-Grecia.php" method="post">
+<form action="2-Resultado-Grecia.php" method="post">
 
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - A soberania dos cidadãos dotados de plenos direitos era imprescindível para a existência da cidade-estado. Segundo os regimes políticos, a proporção desses cidadãos em relação à população total dos homens livres podia variar muito, sendo bastante pequena nas aristocracias e oligarquias e maior nas democracias.

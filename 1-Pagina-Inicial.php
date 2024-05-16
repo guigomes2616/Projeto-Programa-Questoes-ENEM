@@ -2,6 +2,19 @@
     include '1-Header.php';
 ?>
 
+<?php 
+    session_start();
+
+    if((!isset($_SESSION['nickUser']) == true) and (!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)){
+        header('Location: 0-Login.php');
+
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        unset($_SESSION['nickUser']);
+    }
+    $logado = $_SESSION['nickUser'];  
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
