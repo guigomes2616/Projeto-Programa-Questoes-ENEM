@@ -148,3 +148,36 @@ footer span{
     border-color: #007bff; /* altera a cor da borda quando o input está em foco */
     box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
 }
+
+
+.divGabarito{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    padding: 2%;
+    margin-top: 2%;
+    height: auto;
+    width: 100%;
+}
+#botaoVoltar, #enviar, #limpar, #botaoVoltarCad{
+    width: auto;
+    color: white;
+}
+
+#botaoVoltarCad{
+    width: 35%;
+}
+
+#enviar, #limpar a{
+    text-decoration: none;
+    color: white;
+}
+
+#enviar{
+    margin-left: 3%;
+}
+
+#botaoVoltar, #botaoVoltarCad a {
+    text-decoration: none;
+    color: white;
+}

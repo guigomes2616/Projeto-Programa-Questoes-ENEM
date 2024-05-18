@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,7 +48,7 @@
         }
 
         // Exibir o número de respostas corretas e incorretas
-        echo "<h2>Você acertou $respostas_corretas de 5 perguntas e errou $respostas_incorretas.</h2>";
+        echo "<h2>Você acertou $respostas_corretas e errou $respostas_incorretas.</h2>";
 
 ?>
         <div class="divGabarito" id="divAcertos">

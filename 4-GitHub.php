@@ -22,8 +22,8 @@
         Link
       </div>
       <div class="card-body">
-        <h5 class="card-title">Conheça nosso Github!</h5>
-        <p class="card-text">O código deste projeto está em nosso repositório</p>
+        <h5 class="card-title">Conheça o meu Github!</h5>
+        <p class="card-text">O código deste projeto está no meu repositório</p>
         <a href="https://github.com/guigomes2616/Projeto-PW2" class="btn btn-primary">Ir para o repositório</a>
       </div>
     </div>

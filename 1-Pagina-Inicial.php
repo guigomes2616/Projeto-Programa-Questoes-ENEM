@@ -25,9 +25,24 @@
     <title>Página Inicial</title>
 </head>
 
+<style>
+
+h3{
+    text-align: center;
+    padding: 3%;
+}
+
+h2{
+    margin-top: 2%;
+}
+
+</style>
+
 <body class="body">
-    
-    <h2>Disciplinas</h2>
+
+    <?php 
+        echo "<h3>Bem vindo(a) $logado</h3>";
+    ?>
 
     <div class="disciplina" id="disciplina1">
         <p><a href="2-Grecia.php">Grécia Antiga</a></p>

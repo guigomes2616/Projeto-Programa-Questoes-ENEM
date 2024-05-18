@@ -13,10 +13,10 @@
         include '1-Header.php';
 
         $gabarito = array(
-            'quest1' => array('q1_5','1'),
-            'quest2' => array('q2_2','2'),
-            'quest3' => array('q3_5','3'),
-            'quest4' => array('q4_4','4'),
+            'quest1' => array('q1_1','1'),
+            'quest2' => array('q2_1','2'),
+            'quest3' => array('q3_4','3'),
+            'quest4' => array('q4_2','4'),
             'quest5' => array('q5_3','5')
         );
 
@@ -65,7 +65,7 @@
                 ?>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="3-Roma.php">Voltar</a></button>
+            <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="4-Primeira-Guerra.php">Voltar</a></button>
       </div>
     
     <?php

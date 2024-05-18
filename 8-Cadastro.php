@@ -1,3 +1,18 @@
+<?php 
+    if(isset($_POST['submitCad'])){
+
+        include_once ('9-Config.php');
+
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $dataNascimento = $_POST['dataNascimento'];
+        $nomeUsuario = $_POST['nomeUsuario'];
+        $senha = $_POST['senha'];
+
+        $result = mysqli_query($conexao, "INSERT INTO Usuario(nome, email, data_nascimento, nick_usuario, senha) VALUES ('$nome', '$email', '$dataNascimento', '$nomeUsuario', '$senha')");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -45,7 +60,7 @@
                 <div class="col">
                     <div class="mt-3">
 
-                        <form action="" method="POST">
+                        <form action="8-Cadastro.php" method="POST">
 
                             <div class="mb-3">
                                 <label for="nome" class="nome">Nome completo: </label>
@@ -73,7 +88,8 @@
                             </div>
 
                             <div class="text-center" id="divbotaoCad">
-                            <button type="submit" name="submit" class="btn btn-primary mt-3" id="botaoCadastrar">Cadastrar</button>
+                            <button type="submit" name="submitCad" class="btn btn-primary mt-3" id="botaoCadastrar">Cadastrar</button>
+                            <button type="submit" name="submitVolt" class="btn btn-primary mt-3" id="botaoVoltarCad"><a href="0-Login.php">Voltar</a></button>
                             </div>
 
                         </form>

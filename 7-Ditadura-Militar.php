@@ -15,22 +15,22 @@
 
 <h1>Ditadura Militar no Brasil</h1>
 
-<form action="5-Resultado-Ditadura.php" method="post">
+<form action="7-Resultado-Ditadura.php" method="POST">
 
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica. 
         <br>
         Os sindicatos rurais foram tratados da forma descrita no texto porque o governo pretendia utiliza-los para: </label></p>
         
-        <input type="radio" name="quest1" class="question" id="q1_1"> Controlar as tensões políticas
+        <input type="radio" name="quest1" class="question" value="q1_1"> Controlar as tensões políticas
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_2"> Limitar a legislação trabalhista
+        <input type="radio" name="quest1" class="question" value="q1_2"> Limitar a legislação trabalhista
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_3"> Divulgar o programa populista
+        <input type="radio" name="quest1" class="question" value="q1_3"> Divulgar o programa populista
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_4"> Regularizar a propriedade da terra
+        <input type="radio" name="quest1" class="question" value="q1_4"> Regularizar a propriedade da terra
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_5"> Estimular a oferta de mão de obra
+        <input type="radio" name="quest1" class="question" value="q1_5"> Estimular a oferta de mão de obra
         <br>
     </div>
         <br>
@@ -39,15 +39,15 @@
         <br>
         O fragmento integra a letra de uma canção gravada em momento de intensa mobilização política. A canção foi censurada por estar associada: </label></p>
         
-        <input type="radio" class="question" name="quest2" id="q2_1"> Ao rock nacional, que sofreu limitações desde o início da ditadura militar
+        <input type="radio" class="question" name="quest2" value="q2_1"> Ao rock nacional, que sofreu limitações desde o início da ditadura militar
         <br>
-        <input type="radio" class="question" name="quest2" id="q2_2"> A uma crítica ao regime ditatorial que, mesmo em sua fase final, impedia a escolha popular do presidente
+        <input type="radio" class="question" name="quest2" value="q2_2"> A uma crítica ao regime ditatorial que, mesmo em sua fase final, impedia a escolha popular do presidente
         <br>
-        <input type="radio" class="question" name="quest2" id="q2_3"> À falta de conteúdo relevante, pois o Estado buscava, naquele contexto, a conscientização da sociedade por meio da música
+        <input type="radio" class="question" name="quest2" value="q2_3"> À falta de conteúdo relevante, pois o Estado buscava, naquele contexto, a conscientização da sociedade por meio da música
         <br>
-        <input type="radio" class="question" name="quest2" id="q2_4"> À dominação cultural dos Estados Unidos da América sobre a sociedade brasileira, que o regime militar pretendia esconder
+        <input type="radio" class="question" name="quest2" value="q2_4"> À dominação cultural dos Estados Unidos da América sobre a sociedade brasileira, que o regime militar pretendia esconder
         <br>
-        <input type="radio" class="question" name="quest2" id="q2_5"> À alusão à baixa escolaridade e à falta de consciência política do povo brasileiro
+        <input type="radio" class="question" name="quest2" value="q2_5"> À alusão à baixa escolaridade e à falta de consciência política do povo brasileiro
         <br>
     </div>
         <br>
@@ -56,15 +56,15 @@
         <br>
         O Ato Institucional n° 5 é considerado por muitos autores um "golpe dentro do golpe". Nos artigos do AI-5 selecionados, o governo militar procurou limitar a atuação do Poder Judiciário, porque isso significava:</label></p>
         
-        <input type="radio" class="question" name="quest3" id="q3_1"> A substituição da Constituição de 1967
+        <input type="radio" class="question" name="quest3" value="q3_1"> A substituição da Constituição de 1967
         <br>
-        <input type="radio" class="question" name="quest3" id="q3_2"> O início do processo de distensão política 
+        <input type="radio" class="question" name="quest3" value="q3_2"> O início do processo de distensão política 
         <br>
-        <input type="radio" class="question" name="quest3" id="q3_3"> A garantia legal para o autoritarismo dos juízes
+        <input type="radio" class="question" name="quest3" value="q3_3"> A garantia legal para o autoritarismo dos juízes
         <br>
-        <input type="radio" class="question" name="quest3" id="q3_4"> A ampliação dos poderes nas mãos do Executivo
+        <input type="radio" class="question" name="quest3" value="q3_4"> A ampliação dos poderes nas mãos do Executivo
         <br>
-        <input type="radio" class="question" name="quest3" id="q3_5"> A revogação dos instrumentos jurídicos implantados durante o golpe de 1964
+        <input type="radio" class="question" name="quest3" value="q3_5"> A revogação dos instrumentos jurídicos implantados durante o golpe de 1964
         <br>
     </div>
         <br>
@@ -73,15 +73,15 @@
         <br>
         A frase do último presidente do regime militar indicava a ambiguidade da transição política no país. Neste contexto, houve resistências internas ao processo de distensão planejado pela alta cúpula militar, que se manifestaram com: </label></p>
 
-        <input type="radio" class="question" name="quest4" id="q4_1"> As campanhas no rádio, TV e jornais em favor da lei de anistia.
+        <input type="radio" class="question" name="quest4" value="q4_1"> As campanhas no rádio, TV e jornais em favor da lei de anistia.
         <br>
-        <input type="radio" class="question" name="quest4" id="q4_2"> As posições de prefeitos e governadores em apoio à instalação de eleições diretas
+        <input type="radio" class="question" name="quest4" value="q4_2"> As posições de prefeitos e governadores em apoio à instalação de eleições diretas
         <br>
-        <input type="radio" class="question" name="quest4" id="q4_3"> As articulações no Congresso pela convocação de uma nova Assembleia Nacional Constituinte
+        <input type="radio" class="question" name="quest4" value="q4_3"> As articulações no Congresso pela convocação de uma nova Assembleia Nacional Constituinte
         <br>
-        <input type="radio" class="question" name="quest4" id="q4_4"> Os atos criminosos, como a explosão de bombas, de militares inconformados com o fim da ditadura
+        <input type="radio" class="question" name="quest4" value="q4_4"> Os atos criminosos, como a explosão de bombas, de militares inconformados com o fim da ditadura
         <br>
-        <input type="radio" class="question" name="quest4" id="q4_5"> As articulações dos parlamentares do PDS, PMDB e PT em prol da candidatura de Tancredo Neves à presidência
+        <input type="radio" class="question" name="quest4" value="q4_5"> As articulações dos parlamentares do PDS, PMDB e PT em prol da candidatura de Tancredo Neves à presidência
         <br>
     </div>
         <br>
@@ -90,21 +90,20 @@
         <br>
         Compartilhando da avaliação presente no texto, vários grupos de oposição ao Regime Militar, nos anos 1960 e 1970, lançaram-se na luta política seguindo a estratégia de:  </label></p>
         
-        <input type="radio" class="question" name="quest5" id="q5_1"> Aliança com os sindicatos e incitação de greves
+        <input type="radio" class="question" name="quest5" value="q5_1"> Aliança com os sindicatos e incitação de greves
         <br>
-        <input type="radio" class="question" name="quest5" id="q5_2"> Organização de guerrilhas no campo e na cidade
+        <input type="radio" class="question" name="quest5" value="q5_2"> Organização de guerrilhas no campo e na cidade
          <br>
-        <input type="radio" class="question" name="quest5" id="q5_3"> Apresentação de acusações junto à Anistia Internacional
+        <input type="radio" class="question" name="quest5" value="q5_3"> Apresentação de acusações junto à Anistia Internacional
         <br>
-        <input type="radio" class="question" name="quest5" id="q5_4"> Conquista de votos para o Movimento Democrático Brasileiro (MDB)
+        <input type="radio" class="question" name="quest5" value="q5_4"> Conquista de votos para o Movimento Democrático Brasileiro (MDB)
         <br>
-        <input type="radio" class="question" name="quest5" id="q5_5"> Mobilização da imprensa nacional a favor da abertura do sistema partidário
+        <input type="radio" class="question" name="quest5" value="q5_5"> Mobilização da imprensa nacional a favor da abertura do sistema partidário
     </div>
         <br>
+        <input type="submit" name="submit" value="Enviar" class="btn btn-primary" id="enviar">
+        <input type="reset" value="Limpar" class="btn btn-primary" id="limpar">
 </form>
-    <br>
-    <input type="submit" value="Enviar" class="botao" id="enviar">
-    <input type="reset" value="Limpar" class="botao" id="limpar">
 
     <?php 
         include '1-Rodape.php';

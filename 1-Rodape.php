@@ -23,7 +23,6 @@
             <div class="colunaContatos">
                 <span><b>Contatos</b></span>
                 <p>guilherme.silva2616@etec.sp.gov.br</p>
-                <p>rian.silva61@etec.sp.gov.br</p>
             </div>
         </div>
 

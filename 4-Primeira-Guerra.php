@@ -15,22 +15,22 @@
 
 <h1>Primeira Guerra Mundial</h1>
 
-<form action="4-Resultado-Primeira-Guerra.php" method="post"></form>
+<form action="4-Resultado-Primeira-Guerra.php" method="POST">
 
     <div class="divpergunt" id="divpergunt1">
         <p><label for="question1"><strong>1</strong> - A primeira metade do século XX foi marcada por conflitos e processos que a inscreveram como um dos mais violentos períodos da história humana.
         <br>
         Entre os principais fatores que estiveram na origem dos conflitos ocorridos durante a primeira metade do século XX estão: </label></p>
 
-        <input type="radio" name="quest1" class="question" id="q1_1"> A crise do colonialismo, a ascensão do nacionalismo e do totalitarismo
+        <input type="radio" name="quest1" class="question" value="q1_1"> A crise do colonialismo, a ascensão do nacionalismo e do totalitarismo
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_2"> O enfraquecimento do império britânico, a Grande Depressão e a corrida nuclear
+        <input type="radio" name="quest1" class="question" value="q1_2"> O enfraquecimento do império britânico, a Grande Depressão e a corrida nuclear
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_3"> O declínio britânico, o fracasso da Liga das Nações e a Revolução Cubana
+        <input type="radio" name="quest1" class="question" value="q1_3"> O declínio britânico, o fracasso da Liga das Nações e a Revolução Cubana
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_4"> A corrida armamentista, o terceiro-mundismo e o expansionismo soviético
+        <input type="radio" name="quest1" class="question" value="q1_4"> A corrida armamentista, o terceiro-mundismo e o expansionismo soviético
         <br>
-        <input type="radio" name="quest1" class="question" id="q1_5"> A Revolução Bolchevique, o imperialismo e a unificação da Alemanha
+        <input type="radio" name="quest1" class="question" value="q1_5"> A Revolução Bolchevique, o imperialismo e a unificação da Alemanha
         <br>
     </div>
         <br>
@@ -39,15 +39,15 @@
         <br>
         Assinale a alternativa que apresenta as causas da I Guerra Mundial: </label></p>
         
-        <input type="radio" name="quest2" id="q2_1"> O imperialismo, o rompimento do equilíbrio europeu, o nacionalismo, a política das alianças, as questões balcânicas, o incidente de Sarajevo
+        <input type="radio" name="quest2" class="question" value="q2_1"> O imperialismo, o rompimento do equilíbrio europeu, o nacionalismo, a política das alianças, as questões balcânicas, o incidente de Sarajevo
         <br>
-        <input type="radio" name="quest2" id="q2_2"> A ascensão militar dos EUA, o fascismo, o desemprego, a partilha da África, o neocolonialismo e o desmembramento da Tchecoslováquia
+        <input type="radio" name="quest2" class="question" value="q2_2"> A ascensão militar dos EUA, o fascismo, o desemprego, a partilha da África, o neocolonialismo e o desmembramento da Tchecoslováquia
         <br>
-        <input type="radio" name="quest2" id="q2_3"> O Anschluss, a Política de apaziguamento, a crise da Etiópia, a formação do Eixo, a Conferência de Versalhes
+        <input type="radio" name="quest2" class="question" value="q2_3"> O Anschluss, a Política de apaziguamento, a crise da Etiópia, a formação do Eixo, a Conferência de Versalhes
         <br>
-        <input type="radio" name="quest2" id="q2_4"> O fim dos Impérios Otomano e Áustro-Húngaro, a formação da Tríplice Entente, o Plano Schlieffen, o assassinato do Arquiduque Ferdinando
+        <input type="radio" name="quest2" class="question" value="q2_4"> O fim dos Impérios Otomano e Áustro-Húngaro, a formação da Tríplice Entente, o Plano Schlieffen, o assassinato do Arquiduque Ferdinando
         <br>
-        <input type="radio" name="quest2" id="q2_5"> A crise do Marrocos, o Pan-eslavismo russo, a ascensão de Lênin, a partilha da África e da Ásia, e o surgimento da Liga das Nações
+        <input type="radio" name="quest2" class="question" value="q2_5"> A crise do Marrocos, o Pan-eslavismo russo, a ascensão de Lênin, a partilha da África e da Ásia, e o surgimento da Liga das Nações
         <br>
         </div>
         <br>
@@ -56,52 +56,54 @@
         <br>
         Os eventos mencionados no texto contribuíram fortemente para a ascensão de regimes propensos a um novo conflito armado, pois:</label></p>
 
-        <input type="radio" name="quest3" id="q3_1"> Perturbaram a dinâmica de equilíbrio demográfico
+        <input type="radio" name="quest3" class="question" value="q3_1"> Perturbaram a dinâmica de equilíbrio demográfico
         <br>
-        <input type="radio" name="quest3" id="q3_2"> Dificultaram a adesão a ideologias de viés socialista
+        <input type="radio" name="quest3" class="question" value="q3_2"> Dificultaram a adesão a ideologias de viés socialista
         <br>
-        <input type="radio" name="quest3" id="q3_3"> Favoreceram a ascensão de grupos anarquistas ao poder
+        <input type="radio" name="quest3" class="question" value="q3_3"> Favoreceram a ascensão de grupos anarquistas ao poder
         <br>
-        <input type="radio" name="quest3" id="q3_4"> Corroeram a crença na legitimidade das democracias liberais
+        <input type="radio" name="quest3" class="question" value="q3_4"> Corroeram a crença na legitimidade das democracias liberais
         <br>
-        <input type="radio" name="quest3" id="q3_5"> Deterioraram a confiança no salvacionismo dos exércitos nacionais
+        <input type="radio" name="quest3" class="question" value="q3_5"> Deterioraram a confiança no salvacionismo dos exércitos nacionais
         <br>
     </div>
         <br>
     <div class="divpergunt" id="divpergunt4">
         <p><label for="question4"><strong>4</strong> - Em relação às causas da Primeira Guerra Mundial é correto afirmar que: </label></p>
 
-        <input type="radio" name="quest4" id="q4_1"> A incapacidade dos Estados liberais em solucionar a crise econômica do século XIX colocou em xeque toda a estrutura do sistema capitalista. A instabilidade política e social das nações europeias impulsionou as disputas colonialistas e o conflito entre as potências
+        <input type="radio" name="quest4" class="question" value="q4_1"> A incapacidade dos Estados liberais em solucionar a crise econômica do século XIX colocou em xeque toda a estrutura do sistema capitalista. A instabilidade política e social das nações europeias impulsionou as disputas colonialistas e o conflito entre as potências
         <br>
-        <input type="radio" name="quest4" id="q4_2"> A desigualdade de desenvolvimento das nações capitalistas europeias acentuou a rivalidade imperialista. A disputa colonial marcada por um nacionalismo agressivo e pela corrida armamentista expandiu os pontos de atrito entre as potências
+        <input type="radio" name="quest4" class="question" value="q4_2"> A desigualdade de desenvolvimento das nações capitalistas europeias acentuou a rivalidade imperialista. A disputa colonial marcada por um nacionalismo agressivo e pela corrida armamentista expandiu os pontos de atrito entre as potências
         <br>
-        <input type="radio" name="quest4" id="q4_3"> O sucesso da política de apaziguamento e do sistema de aliança equilibrou o sistema de forças entre as nações europeias, acirrando as lutas de conquista das colônias da África e da Ásia
+        <input type="radio" name="quest4" class="question" value="q4_3"> O sucesso da política de apaziguamento e do sistema de aliança equilibrou o sistema de forças entre as nações europeias, acirrando as lutas de conquista das colônias da África e da Ásia
         <br>
-        <input type="radio" name="quest4" id="q4_4"> O expansionismo na Áustria, a invasão da Polônia pelas tropas alemãs assustaram a Inglaterra e a França, que reagiram contra a agressão declarando guerra ao inimigo
+        <input type="radio" name="quest4" class="question" value="q4_4"> O expansionismo na Áustria, a invasão da Polônia pelas tropas alemãs assustaram a Inglaterra e a França, que reagiram contra a agressão declarando guerra ao inimigo
         <br>
-        <input type="radio" name="quest4" id="q4_5"> O desequilíbrio entre a produção e consumo incentivou a conquista de novos mercados produtores de matérias-primas e consumidores de bens de produção reativando as rivalidades entre os países europeus e os da América do Norte
+        <input type="radio" name="quest4" class="question" value="q4_5"> O desequilíbrio entre a produção e consumo incentivou a conquista de novos mercados produtores de matérias-primas e consumidores de bens de produção reativando as rivalidades entre os países europeus e os da América do Norte
         <br>
     </div>
         <br>
     <div class="divpergunt" id="divpergunt5">
         <p><label for="question5"><strong>5</strong> - Que nação foi obrigada a sair da Primeira Guerra Mundial devido a conflitos internos? </label></p>
         
-        <input type="radio" name="quest5" id="q5_1"> Inglaterra
+        <input type="radio" name="quest5" class="question" value="q5_1"> Inglaterra
         <br>
-        <input type="radio" name="quest5" id="q5_2"> Império Alemão
+        <input type="radio" name="quest5" class="question" value="q5_2"> Império Alemão
          <br>
-        <input type="radio" name="quest5" id="q5_3"> Império Russo
+        <input type="radio" name="quest5" class="question" value="q5_3"> Império Russo
         <br>
-        <input type="radio" name="quest5" id="q5_4"> Coreia do Norte
+        <input type="radio" name="quest5" class="question" value="q5_4"> Coreia do Norte
         <br>
-        <input type="radio" name="quest5" id="q5_5"> Estados Unidos
+        <input type="radio" name="quest5" class="question" value="q5_5"> Estados Unidos
         <br>
     </div>
-</form> 
     <br>
-    <input type="submit" value="Enviar" class="botao" id="enviar">
-    <input type="reset" value="Limpar" class="botao" id="limpar">
 
+    <input type="submit" name="submit" value="Enviar" class="btn btn-primary" id="enviar">
+    <input type="reset" value="Limpar" class="btn btn-primary" id="limpar">
+
+</form> 
+    
     <?php 
         include '1-Rodape.php';
     ?>

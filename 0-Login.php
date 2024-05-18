@@ -37,7 +37,7 @@
                 <div class="col">
                     <div class="mt-3">
 
-                        <form action="1-Pagina-Inicial.php" method="post">
+                        <form action="10-TesteLogin.php" method="post">
 
                             <div class="mb-3">
                                 <label for="nickUsuario" class="form-label">Usuário</label>
