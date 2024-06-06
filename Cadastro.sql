@@ -1,3 +1,4 @@
+create database cadastro;
 use cadastro;
 
 create table usuario(

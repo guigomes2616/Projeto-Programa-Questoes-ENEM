@@ -5,13 +5,11 @@
 <?php 
     session_start();
 
-    if((!isset($_SESSION['nickUser']) == true) and (!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)){
+    if(!isset($_SESSION['nickUser'], $_SESSION['email'], $_SESSION['senha'])){
         header('Location: 0-Login.php');
-
-        unset($_SESSION['email']);
-        unset($_SESSION['senha']);
-        unset($_SESSION['nickUser']);
+        exit(); // Encerrar o script após redirecionar
     }
+    
     $logado = $_SESSION['nickUser'];  
 ?>
 
