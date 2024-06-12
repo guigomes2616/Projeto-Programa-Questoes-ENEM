@@ -9,23 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
 
-  <style>
-#botaoCadastro, #botaoLogin{
-    width: 35%;
-    color: white;
-}
-
-#botaoCadastro a{
-    text-decoration: none;
-    color: white;
-}
-
-.divduvida{
-    text-align: center;
-}
-
-  </style>
-
 <body class="bodyLogin">
 
     <h1 id="tituloLogin">Seja bem vindo(a)</h1>

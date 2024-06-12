@@ -23,19 +23,6 @@
     <title>Página Inicial</title>
 </head>
 
-<style>
-
-h3{
-    text-align: center;
-    padding: 3%;
-}
-
-h2{
-    margin-top: 2%;
-}
-
-</style>
-
 <body class="body">
 
     <?php 

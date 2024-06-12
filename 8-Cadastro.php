@@ -9,9 +9,34 @@
         $nomeUsuario = $_POST['nomeUsuario'];
         $senha = $_POST['senha'];
 
-        $result = mysqli_query($conexao, "INSERT INTO usuario(nome, email, data_nascimento, nick_usuario, senha) VALUES ('$nome', '$email', '$dataNascimento', '$nomeUsuario', '$senha')");
+        // Verificar se o usuário já existe no banco de dados
+        $check_query = mysqli_query($conexao, "SELECT * FROM usuario WHERE email='$email' OR nick_usuario='$nomeUsuario'");
+        $count = mysqli_num_rows($check_query);
+        
+        if ($count > 0) {
+            // Usuário já existe, enviar mensagem de erro em JavaScript
+            echo "<script>
+                    alert('Este email ou nome de usuário já está cadastrado. Por favor, escolha outros.');
+                    document.getElementById('nome').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('dataNascimento').value = '';
+                    document.getElementById('nomeUsuario').value = '';
+                    document.getElementById('senhacriada').value = '';
+                  </script>";
+        } else {
+            // Usuário não existe, inserir no banco de dados
+            $result = mysqli_query($conexao, "INSERT INTO usuario(nome, email, data_nascimento, nick_usuario, senha) VALUES ('$nome', '$email', '$dataNascimento', '$nomeUsuario', '$senha')");
+
+            if ($result) {
+                echo "<script>alert('Cadastro realizado com sucesso!')</script>";
+            } else {
+                echo "<script>alert('Ocorreu um erro ao cadastrar. Por favor, tente novamente.')</script>";
+            }
+        }
     }
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -23,31 +48,6 @@
     <title>Cadastro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  
-  <style>
-#tituloCadastro{
-    text-align: center;
-    margin: 5%;
-}
-
-.form-control{
-    border: 2px solid #000000;
-}
-.form-control:focus{
-    border-color: #007bff;
-    box-shadow: 0 0 5px #007bff;
-}
-
-#botaoCadastrar{
-    width: 35%;
-    color: white;
-}
-
-#botaoCadastrar a{
-    text-decoration: none;
-    color: white;
-}
-  </style>
 
 <body class="bodyLogin">
 

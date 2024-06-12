@@ -1,183 +1,221 @@
-/*Todos os Arquivos ----------------------------------------------*/
-*{
-    font-family: 'Times New Roman', Times, serif;
-}
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
 
-body{
-    background-color: rgb(198, 150, 243);
-}
+        body {
+            background-color: rgb(198, 150, 243);
+        }
 
-/*Arquivos das Disciplinas-----------------------------------------*/
+        /* Arquivos das Disciplinas----------------------------------------- */
 
-.divpergunt{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px black;
-    padding: 10px;
-    margin-left: 3%;
-    margin-right: 5%;
-}
+        .divpergunt {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px black;
+            padding: 10px;
+            margin-left: 3%;
+            margin-right: 5%;
+        }
 
-strong{
-    font-size: 20px;
-}
+        strong {
+            font-size: 20px;
+        }
 
-#divpergunt1{
-    margin-top: 3%;
-}
+        #divpergunt1 {
+            margin-top: 3%;
+        }
 
-.botao{
-    box-shadow: 2px 2px 8px;
-}
+        .botao {
+            box-shadow: 2px 2px 8px;
+        }
 
-/*GitHub --------------------------------------------------------------*/
-.card-body{
-    text-align: center;
-}
+        /* GitHub -------------------------------------------------------------- */
+        .card-body {
+            text-align: center;
+        }
 
-/*Página Incial --------------------------------------------------------*/
-#disciplina1, #disciplina2, #disciplina3, #disciplina4, #disciplina5, #disciplina6{
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px black;
-    margin-top: 5px;
-    text-align: center;
-}
+        /* Página Incial -------------------------------------------------------- */
+        #disciplina1,
+        #disciplina2,
+        #disciplina3,
+        #disciplina4,
+        #disciplina5,
+        #disciplina6 {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px black;
+            margin-top: 5px;
+            text-align: center;
+        }
 
-.disciplina{
-    margin: 10px;
-    height: 45px;
-    line-height: 45px;
-    
-}
+        .disciplina {
+            margin: 10px;
+            height: 45px;
+            line-height: 45px;
+        }
 
-.disciplina p:hover{
-    transform: scale(1.1);
-}
+        .disciplina p:hover {
+            transform: scale(1.1);
+        }
 
-#infoEnem{
-    text-align: start;
-}
+        #infoEnem {
+            text-align: start;
+        }
 
-h2{
-    font-weight: bolder;
-}
+        h2 {
+            font-weight: bolder;
+            margin-top: 2%; /* Adicionado */
+        }
 
-h1{
-    margin: 10px;
-}
+        h1 {
+            margin: 10px;
+        }
 
-/* Rodape -------------------------------------------------------------------------------------------------------------*/
-#bodyRodape{
-    margin: 0%;
-}
+        h3 {
+            text-align: center;
+            padding: 3%; /* Adicionado */
+        }
 
-footer{
-    background-color: #000000;
-    color: white;
-    margin-top: 8%;
-}
+        /* Rodape ------------------------------------------------------------------------------------------------------------- */
+        #bodyRodape {
+            margin: 0%;
+        }
 
-.rodape{
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin: auto;
-    align-items: stretch;
-    padding: 60px 10px 40px 10px;
-    justify-content:space-around;
-}
+        footer {
+            background-color: #000000;
+            color: white;
+            margin-top: 8%;
+        }
 
-.divTurma{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 2%;
-}
+        .rodape {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: auto;
+            align-items: stretch;
+            padding: 60px 10px 40px 10px;
+            justify-content: space-around;
+        }
 
-.divContatos{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 2%;
-}
+        .divTurma {
+            display: flex;
+            width: calc(100% / 4 - 20px);
+            padding: 2%;
+        }
 
-.divDireitos{
-    width: calc(100% - 20px);
-    background-color: black;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
-}
+        .divContatos {
+            display: flex;
+            width: calc(100% / 4 - 20px);
+            padding: 2%;
+        }
 
-footer span{
-    font-size: 20px;
-    color: white;
-}
+        .divDireitos {
+            width: calc(100% - 20px);
+            background-color: black;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
 
-/* Login -------------------------------------------------------------------------------------------------*/
+        footer span {
+            font-size: 20px;
+            color: white;
+        }
 
-#tituloLogin{
-    text-align: center;
-    margin: 5%;
-}
+        /* Login ------------------------------------------------------------------------------------------------- */
 
-.bodyLogin{
-    background-color: rgb(198, 150, 243);
-}
+        #tituloLogin {
+            text-align: center;
+            margin: 5%;
+        }
 
-.container{
-    background-color: rgb(247, 247, 247);
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px black;
-    padding: 3%;
-}
+        .bodyLogin {
+            background-color: rgb(198, 150, 243);
+        }
 
-.form-control {
-    border: 2px solid #000000;
-}
+        .container {
+            background-color: rgb(247, 247, 247);
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px black;
+            padding: 3%;
+        }
 
-.form-control:focus {
-    border-color: #007bff; /* altera a cor da borda quando o input está em foco */
-    box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
-}
+        .form-control {
+            border: 2px solid #000000;
+        }
 
-#senha{
-    border: 2px solid #000000;
-}
+        .form-control:focus {
+            border-color: #007bff;
+            /* altera a cor da borda quando o input está em foco */
+            box-shadow: 0 0 5px #007bff;
+            /* adiciona uma sombra ao input quando está em foco */
+        }
 
-#senha:focus{
-    border-color: #007bff; /* altera a cor da borda quando o input está em foco */
-    box-shadow: 0 0 5px #007bff; /* adiciona uma sombra ao input quando está em foco */
-}
+        #senha {
+            border: 2px solid #000000;
+        }
 
+        #senha:focus {
+            border-color: #007bff;
+            /* altera a cor da borda quando o input está em foco */
+            box-shadow: 0 0 5px #007bff;
+            /* adiciona uma sombra ao input quando está em foco */
+        }
 
-.divGabarito{
-    background-color: rgb(247, 247, 247);
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px black;
-    padding: 2%;
-    margin-top: 2%;
-    height: auto;
-    width: 100%;
-}
-#botaoVoltar, #enviar, #limpar, #botaoVoltarCad{
-    width: auto;
-    color: white;
-}
+        .divGabarito {
+            background-color: rgb(247, 247, 247);
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px black;
+            padding: 2%;
+            margin-top: 2%;
+            height: auto;
+            width: 100%;
+        }
 
-#botaoVoltarCad{
-    width: 35%;
-}
+        #botaoVoltar,
+        #enviar,
+        #limpar,
+        #botaoVoltarCad {
+            width: auto;
+            color: white;
+        }
 
-#enviar, #limpar a{
-    text-decoration: none;
-    color: white;
-}
+        #botaoVoltarCad {
+            width: 35%;
+        }
 
-#enviar{
-    margin-left: 3%;
-}
+        #enviar,
+        #limpar a {
+            text-decoration: none;
+            color: white;
+        }
 
-#botaoVoltar, #botaoVoltarCad a {
-    text-decoration: none;
-    color: white;
-}
+        #enviar {
+            margin-left: 3%;
+        }
+
+        #botaoVoltarCad a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #botaoVoltar a{
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Adicionando o estilo do botão e da classe divduvida */
+        #botaoCadastro,
+        #botaoLogin {
+            width: 35%;
+            color: white;
+        }
+
+        #botaoCadastro a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .divduvida {
+            text-align: center;
+        }
