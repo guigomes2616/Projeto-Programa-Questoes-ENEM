@@ -24,7 +24,7 @@
     );
 
     // Verificar se o formulário foi submetido e se há respostas para processar
-    if ($_SERVER["REQUEST_METHOD"] == "POST"  && !empty($_POST)) { 
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST)) { 
         // Inicializar contadores para respostas corretas e incorretas
         $respostas_corretas = 0;
         $respostas_incorretas = 0;
@@ -49,31 +49,42 @@
 
         // Exibir o número de respostas corretas e incorretas
         echo "<h2>Você acertou $respostas_corretas e errou $respostas_incorretas.</h2>";
-
 ?>
+
         <div class="divGabarito" id="divAcertos">
             <?php
-                echo "<h3>Perguntas acertadas:</h3>";
-                foreach ($perguntas_acertadas as $pergunta) {
-                    echo "<p>Pergunta $pergunta</p>";
+                if (!empty($perguntas_acertadas)) {
+                    echo "<h3>Perguntas acertadas:</h3>";
+                    foreach ($perguntas_acertadas as $pergunta) {
+                        echo "<p>Pergunta $pergunta</p>";
+                    }
+                } else {
+                    echo "<h3>Nenhuma resposta correta.</h3>";
                 }
             ?>
         </div>
         
         <div class="divGabarito" id="divErros">
             <?php 
-                echo "<h3>Perguntas erradas:</h3>";
-                foreach ($perguntas_erradas as $pergunta) {
-                    echo "<p>Pergunta $pergunta</p>";
+                if (!empty($perguntas_erradas)) {
+                    echo "<h3>Perguntas erradas:</h3>";
+                    foreach ($perguntas_erradas as $pergunta) {
+                        echo "<p>Pergunta $pergunta</p>";
+                    }
+                } else {
+                    echo "<h3>Nenhuma resposta incorreta.</h3>";
                 }
             ?>
         </div>
         <br>
-        <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="2-Grecia.php">Voltar</a></button>
-  </div>
+        <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="2-Grecia.php" style="color: white; text-decoration: none;">Voltar</a></button>
+    </div>
 
 <?php
-    }   
+    } else {
+        // Caso o formulário não tenha sido enviado ou esteja vazio
+        echo "<h2>Nenhuma resposta foi enviada.</h2>";
+    }  
     include '1-Rodape.php';
 ?>
 

@@ -13,14 +13,14 @@
         include '1-Header.php';
 
         $gabarito = array(
-            'quest1' => array('q1_1','1'),
-            'quest2' => array('q2_1','2'),
-            'quest3' => array('q3_4','3'),
-            'quest4' => array('q4_3','4'),
-            'quest5' => array('q5_2','5')
+            'quest1' => array('q1_1', '1'),
+            'quest2' => array('q2_1', '2'),
+            'quest3' => array('q3_4', '3'),
+            'quest4' => array('q4_3', '4'),
+            'quest5' => array('q5_2', '5')
         );
 
-        if ($_SERVER["REQUEST_METHOD"] == "POST"  && !empty($_POST)) { 
+        if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST)) { 
             // Inicializar contadores para respostas corretas e incorretas
             $respostas_corretas = 0;
             $respostas_incorretas = 0;
@@ -45,33 +45,41 @@
     
             // Exibir o número de respostas corretas e incorretas
             echo "<h2>Você acertou $respostas_corretas e errou $respostas_incorretas.</h2>";
-    
     ?>
             <div class="divGabarito" id="divAcertos">
                 <?php
-                    echo "<h3>Perguntas acertadas:</h3>";
-                    foreach ($perguntas_acertadas as $pergunta) {
-                        echo "<p>Pergunta $pergunta</p>";
+                    if (!empty($perguntas_acertadas)) {
+                        echo "<h3>Perguntas acertadas:</h3>";
+                        foreach ($perguntas_acertadas as $pergunta) {
+                            echo "<p>Pergunta $pergunta</p>";
+                        }
+                    } else {
+                        echo "<h3>Nenhuma resposta correta.</h3>";
                     }
                 ?>
             </div>
             
             <div class="divGabarito" id="divErros">
                 <?php 
-                    echo "<h3>Perguntas erradas:</h3>";
-                    foreach ($perguntas_erradas as $pergunta) {
-                        echo "<p>Pergunta $pergunta</p>";
+                    if (!empty($perguntas_erradas)) {
+                        echo "<h3>Perguntas erradas:</h3>";
+                        foreach ($perguntas_erradas as $pergunta) {
+                            echo "<p>Pergunta $pergunta</p>";
+                        }
+                    } else {
+                        echo "<h3>Nenhuma resposta incorreta.</h3>";
                     }
                 ?>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="5-Segunda-Guerra.php">Voltar</a></button>
-      </div>
+            <button type="submit" class="btn btn-primary" id="botaoVoltar"><a href="5-Segunda-Guerra.php" style="color: white; text-decoration: none;">Voltar</a></button>
     
     <?php
-        }   
+        } else {
+            echo "<h2>Nenhuma resposta foi enviada.</h2>";
+        }  
         include '1-Rodape.php';
     ?>
     
-    </body>
-    </html>
+</body>
+</html>
