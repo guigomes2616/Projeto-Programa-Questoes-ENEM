@@ -1,6 +1,5 @@
 Projeto-PW2
-Autores: Guilherme Gomes da Silva - Grupo06
-Repositório - Projeto de Programação WEB II
+Autores: Guilherme Gomes da Silva
 
 Programa de questões/perguntas sobre a matéria de História cobrada no Exame Nacional do Ensino Médio (ENEM).
 
